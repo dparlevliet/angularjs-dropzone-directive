@@ -65,4 +65,4 @@ app.controller("main", function(
 ```
 This will make the csrftoken variable available to Dropzone via <tt>ng-csrftoken</tt>. However, <tt>ng-csrftokenname</tt> 
 is also required and expected if you want this to work. For Django the CSRF token name should be
-<tt>csrftokenmiddleware</tt>.
+<tt>csrfmiddlewaretoken</tt>.
